@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owen's Sign Up Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo-banner">
+      <img src="assets/odin-lined.png" alt="The Odin Project logo">
+      <h1 class="odin-text">Odin</h1>
+    </div>
+    <p class="photo-credit">Photo by <a href="https://unsplash.com/@onemorephoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Damir Babacic</a> on <a href="https://unsplash.com/photos/brown-sand-in-close-up-photography-XDxzXECelxU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+  </aside>
+  <main>
+    <header>
+      <p>If you have found this form, know that you have already passed the first test. The universe has deemed you worthy of this opportunity. When you gaze into a mirror at midnight, what gazes back?</p>
+      <p>&nbsp;</p>
+      <i>Veritas in tenebris lucet</i>
+    </header>
+    <form action="GET">
+      <div class="form-container">
+      <h3>Grant us your secrets</h3>
+        <ul>
+          <li><label for="fname">First Name<input type="text" id="fname" name="fname" required></label></li>
+          <li><label for="lname">Last Name<input type="text" id="lname" name="lname" required></label></li>
+          <li><label for="email">Email<input type="email" id="email" name="email" required></label></li>
+          <li><label for="phnumber">Phone Number<input type="text" inputmode="numeric" id="phnumber" name="phnumber"></label></li>
+          <li><label for="password">Password<input type="password" id="password" name="password"></label></li>
+          <li><label for="cpw">Confirm Password<input type="password" id="cpw" name="cpw"></label></li>
+        </ul>
+      </div>
+      <button type="submit" value="submit">Join</button>
+    </form>
+    <p>Member? <a href="log-in">Come forth brother</a></p>  
+  </main>
+</body>
+</html>
