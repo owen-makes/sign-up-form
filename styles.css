@@ -45,7 +45,7 @@ p, h1, h2, h3, h4, h5, h6 {
   left: 0px;
   height: 100vh;
   width: 30vw;
-  background-image: url(assets/damir-babacic-XDxzXECelxU-unsplash.jpg);
+  background-image: url('assets/damir-babacic-XDxzXECelxU-unsplash Large.webp');
   background-size: cover;
   background-color: var(--highlight);
 }
